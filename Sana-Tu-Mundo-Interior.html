@@ -1003,7 +1003,7 @@ document.addEventListener('change', function(e) {
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('sw.js');
+        navigator.serviceWorker.register('/sana-tu-mundo-APP/sw.js', {scope: '/sana-tu-mundo-APP/'});
       });
     }
   </script>
@@ -1459,7 +1459,7 @@ body.dark-mode .pm-modal-btn.secundario { background: #251A10 !important; color:
 })();
 </script>
 <script>
-if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sana-tu-mundo-APP/sw.js', {scope: '/sana-tu-mundo-APP/'}); }
 </script>
 </body>
 </html>
