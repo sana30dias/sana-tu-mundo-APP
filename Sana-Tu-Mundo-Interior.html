@@ -1458,6 +1458,8 @@ body.dark-mode .pm-modal-btn.secundario { background: #251A10 !important; color:
   window.addEventListener('beforeprint', function(e) { e.stopImmediatePropagation(); });
 })();
 </script>
-
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+</script>
 </body>
 </html>
