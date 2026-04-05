@@ -1,15 +1,26 @@
 {
   "name": "Sana Tu Mundo Interior",
-  "short_name": "Sana 30 Días",
-  "description": "30 días de transformación interior",
+  "short_name": "Sana Tu Mundo",
+  "description": "Programa de 30 días para sanar tu mundo interior",
   "start_url": "/sana-tu-mundo-APP/Sana-Tu-Mundo-Interior.html",
   "scope": "/sana-tu-mundo-APP/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FBF5EC",
   "theme_color": "#7D2A47",
-  "orientation": "portrait",
+  "lang": "es",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "/sana-tu-mundo-APP/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/sana-tu-mundo-APP/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
